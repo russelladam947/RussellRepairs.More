@@ -1,0 +1,138 @@
+   *{
+    background-image: url(https://media.istockphoto.com/id/1447375883/photo/brown-boards-as-a-template-for-design-dark-wood-texture-backdrop.jpg?s=612x612&w=0&k=20&c=f7vCKniz8TWf-PWQZxqhtv3okUwRwgJwVH3SRK4GDUA=);
+    font-family: 'Roboto Slab', serif;
+    color: silver;
+}
+@media screen and (min-width: 900px) {
+  article {
+    display: flex;
+  }
+}
+.header{
+    font-size: 50px;
+    text-align: center;
+}
+.logo{
+    width: 5%;
+    height: 5%;
+    justify-content: center;
+    border-radius: 50%;
+}
+#mission{
+    position: relative;
+}
+.mission-statement{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 48px;
+    padding-bottom: 5px;
+    z-index: 2;
+}
+.mission-background{
+    width: 100%;
+    height: 500px;
+    align-items: center;
+    z-index: 1;
+}
+#examples{
+    padding: 10% 10%;
+}
+a{
+    text-decoration: none;
+    color: silver;
+    background-color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+.portfolio-images{
+    text-align: center;
+    font-size: 40px;
+}
+.pic-1{
+    width: 700px;
+    height: 500px;
+    border: solid 1px darkgray;
+    border-radius: 5%
+}
+.pic-2{
+    width: 700px;
+    height:500px;
+    border: solid 1px darkgray;
+    border-radius: 5%
+}
+.pic-3{
+    width: 700px;
+    height: 500px;
+    border: solid 1px darkgray;
+    border-radius: 5%
+}
+.info{
+    text-align: center;
+    font-size: 35px
+}
+.me{
+    width: 900px;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: solid 1px darkgray;
+    border-radius: 15%
+}
+nav{
+    text-align: center;
+}
+ul, li{
+    display: inline;
+    padding: 5px
+}
+li, a{
+    font-size: 25px;
+    border: solid 1px darkgray;
+    border-radius: 10%;
+    
+
+}
+a:hover{
+    background-color: black;
+    color: lightblue;
+}
+p{
+    text-align: center;
+    font-weight: bold;
+}
+.tea{
+    text-align: center;
+    font-weight: bold;
+}
+.pic-4{
+    width: 700px;
+    height: 500px;
+    border: solid 1px darkgray;
+    border-radius: 5%
+}
+.camera{
+    text-align: center;
+    font-weight: bold;
+    border: solid 1px darkgray;
+    border-radius: 5%
+}
+.pic-5{
+    width: 700px;
+    height: 500px;
+    border: solid 1px darkgray;
+    border-radius: 5%
+}
+.pic-6{
+    width: 700px;
+    height: 500px;
+    border: solid 1px darkgray;
+    border-radius: 5%
+}
+.back{
+  display: center;
+  text-align: center;
+  justify-content: center;
+}
